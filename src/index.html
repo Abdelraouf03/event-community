@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/imgs/partners.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Gather</title>
+</head>
+    <body class="box-border m-0 p-0 font-mono bg-slate-100 scroll-smooth">
+
+        <nav class="container mx-auto p-12  flex justify-around items-center relative">
+            <div class="flex items-center cursor-pointer space-x-1">
+                <img class="w-8 h-8"  src="/imgs/partners.png" alt="gather">
+                <h1 class="uppercase font-bold text-3xl tracking-wider">gather</h1>
+            </div>
+            <div class="space-x-7 uppercase font-semibold">
+                <a href="#features" class="relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:-top-1 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">features</a>
+                <a href="#" class="relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:-top-1 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">events</a>
+                <a href="#" class="relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:-top-1 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">community</a>
+                <a href="#faqs" class="relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:-top-1 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">faqs</a>
+                <a href="#" class="bg-red-500 text-white no-underline py-1.5 px-4 rounded-md hover:bg-red-400 transition-colors duration-200 ease-linear" id="login">register</a>
+            </div>
+            <div id="form" class="absolute top-[80%] right-[12%] -my-2 bg-white shadow-sm rounded-md p-4 transition-all duration-200 hidden">
+                <form class="flex flex-col space-y-2">
+                    <label for="user">Username</label>
+                    <input type="text" name="user" id="user" class="py-2 px-3 rounded-md border-none bg-slate-100 outline-none">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="pass" class="py-2 px-3 rounded-md border-none bg-slate-100 outline-none ">
+                    <button class="bg-red-500 py-1 px-4 cursor-pointer rounded-md mx-auto text-white" id="submit">Submit</button>
+                </form>
+            </div>
+        </nav>
+    
+        <header class="mt-5 h-screen">
+            <div class="flex w-full justify-around items-center">
+                <div class="max-w-[490px] ml-48 space-y-5">
+                    <h1 class="text-5xl font-extrabold">Join the Community!</h1>
+                    <p class="pb-8">Stay connected and informed with our Community Events Bulletin Board. Discover local happenings, engage with your neighbors, and never miss out on exciting events in your area. Whether it’s a concert, workshop, or family gathering, find your next adventure here!</p>
+                    <a href="#" class="bg-indigo-600 text-white py-3 px-4 rounded-md hover:bg-indigo-700 transition-colors duration-200 ease-linear">Explore Events</a>
+                    <a href="#" class="bg-white shadow py-3 px-4 rounded-md hover:bg-slate-100 transition-colors duration-200 ease-linear">Join Now</a>
+                </div>
+                <div class="">
+                    <img class="w-[500px]" src="/imgs/undraw_website_u6x8.svg" alt="">
+                </div>
+            </div>
+        </header>
+    
+        <section id="features" class="bg-slate-200 pb-6">
+            <div class="w-full flex flex-col items-center pt-14">
+                <div class="text-center max-w-4xl space-y-4">
+                    <h1 class="text-4xl font-bold">Explore Our Exciting Features!</h1>
+                    <p class="text-gray-600">Discover the powerful features designed to enhance your community experience. Our platform connects you with local events, making it easier than ever to engage with your neighbors, share experiences, and participate in activities that matter to you.</p>
+                </div>
+    
+                <div class="flex justify-center  mt-24 w-full">
+                    <div class="w-1/2">
+                        <img class="w-[600px]" src="/imgs/amusement_park.svg" alt="">
+                    </div>
+                    <div class="w-1/2 max-w-xl space-y-3 pt-16">
+                        <h1 class="text-3xl font-bold">Event Discovery</h1>
+                        <p class="pb-5">Easily browse and search for local events by category, date, or location. ensuring you find exactly what you’re looking for.</p>
+                        <a class="bg-indigo-600 px-4 py-3 rounded-md text-white font-bold hover:bg-indigo-700 transition-colors duration-200 ease-linear" href="#">More Info</a>
+                    </div>
+                </div>
+    
+                <div class="flex justify-center  mt-24 w-full">
+                    <div class="max-w-xl space-y-3 pt-40">
+                        <h1 class="text-3xl font-bold">User Submissions</h1>
+                        <p class="pb-5">Empower yourself to submit your own events for approval, giving you a voice in promoting local happenings.</p>
+                        <a class="bg-indigo-600 px-4 py-3 rounded-md text-white font-bold hover:bg-indigo-700 transition-colors duration-200 ease-linear" href="#">More Info</a>
+                    </div>
+                    <div>
+                        <img class="w-[600px]" src="/imgs/undraw_user.svg" alt="">
+                    </div>
+                </div>
+    
+                <div class="flex justify-center  mt-24 w-full">
+                    <div class="w-1/2">
+                        <img class="w-[600px]" src="/imgs/undraw_calendar.svg" alt="">
+                    </div>
+                    <div class="w-1/2 max-w-xl space-y-3 pt-40">
+                        <h1 class="text-3xl font-bold">Calendar View</h1>
+                        <p class="pb-5">Enjoy a visual calendar layout to see events at a glance, making planning your week a breeze.</p>
+                        <a class="bg-indigo-600 px-4 py-3 rounded-md text-white font-bold hover:bg-indigo-700 transition-colors duration-200 ease-linear" href="#">More Info</a>
+                    </div>
+                </div>
+                <div class="flex justify-center  mt-24 w-full">
+                    <div class="max-w-xl space-y-3 pt-40">
+                        <h1 class="text-3xl font-bold">Event Highlights</h1>
+                        <p class="pb-5">Stay informed with featured events that spotlight the most exciting happenings in your community. Get a curated list of must-attend events, ensuring you never miss out on what’s popular and engaging.</p>
+                        <a class="bg-indigo-600 px-4 py-3 rounded-md text-white font-bold hover:bg-indigo-700 transition-colors duration-200 ease-linear" href="#">More Info</a>
+                    </div>
+                    <div>
+                        <img class="w-[600px]" src="/imgs/festivities.svg" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-center  mt-24 w-full">
+                    <div class="w-1/2">
+                        <img class="w-[600px]" src="/imgs/undraw_notifications.svg" alt="">
+                    </div>
+                    <div class="w-1/2 max-w-xl space-y-3 pt-40">
+                        <h1 class="text-3xl font-bold">Notifications</h1>
+                        <p class="pb-5">Opt-in for real-time updates about new events and changes to your favorites, so you’re always in the know.</p>
+                        <a class="bg-indigo-600 px-4 py-3 rounded-md text-white font-bold hover:bg-indigo-700 transition-colors duration-200 ease-linear" href="#">More Info</a>
+                    </div>
+                </div>
+                <div class="flex justify-center  mt-24 w-full">
+                    <div class="max-w-xl space-y-3 pt-40">
+                        <h1 class="text-3xl font-bold">Discussion Boards</h1>
+                        <p class="pb-5">Join community conversations around events, allowing you to connect with others and share experiences.</p>
+                        <a class="bg-indigo-600 px-4 py-3 rounded-md text-white font-bold hover:bg-indigo-700 transition-colors duration-200 ease-linear" href="#">More Info</a>
+                    </div>
+                    <div>
+                        <img class="w-[600px]" src="/imgs/undraw_disc.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="w-full flex flex-col items-center mt-28 mb-14">
+                <div class="text-center max-w-5xl space-y-4">
+                    <h1 class="text-4xl font-bold">What Our Community Says</h1>
+                    <p class="text-gray-600">Hear from our community members about their experiences with our platform! User feedback is invaluable, and we’re proud to share the voices of those who have found connection and joy through local events..</p>
+                </div>
+                <div class="flex items-center justify-center mt-7 space-x-12">
+                    <div class="w-1/4 flex flex-col items-center py-7 px-4 shadow-md rounded-lg border-slate-200 bg-slate-200 space-y-1">
+                        <img src="/imgs/user4.jpg" alt="img" class=" w-16 rounded-full -mt-14">
+                        <h5 class="font-bold text-lg text-slate-900">Trevor L</h5>
+                        <p class="leading-5 text-sm text-slate-700">“This platform made it so easy to find local events! I never miss out on what’s happening in my community.”</p>
+                    </div>
+        
+                    <div class="w-1/4 flex flex-col items-center py-7 px-4 shadow-md rounded-lg mt-12 border-slate-200 bg-slate-200 space-y-1">
+                        <img src="/imgs/user2.jfif" alt="img" class="w-16 rounded-full -mt-14">
+                        <h5 class="font-bold text-lg text-slate-900">Jessica R</h5>
+                        <p class="leading-5 text-sm text-slate-700">“The community discussions really enhance my experience. It’s nice to see what others think about the events!”</p>
+                    </div>
+    
+                    <div class="w-1/4 flex flex-col items-center py-7 px-4 shadow-md rounded-lg mt-24 border-slate-200 bg-slate-200 space-y-1">
+                        <img src="/imgs/user3.jpg" alt="img" class="w-16 rounded-full -mt-14">
+                        <h5 class="font-bold text-lg text-slate-900">Mike T</h5>
+                        <p class="leading-5 text-sm text-slate-700">“I love being able to submit my own events. It feels great to share what’s going on and connect with others!”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="faqs" class="bg-slate-200 py-16">
+            <div class="w-full flex flex-col items-center ">
+                <div class="text-center max-w-xl space-y-4">
+                    <h1 class="text-4xl font-bold">Frequently Asked Questions</h1>
+                    <p class="text-gray-600">Got questions? We’ve got answers! Here you’ll find helpful information about our platform, how to use it, and anything else you need to know about community events.</p>
+                </div>
+                <div class="mt-8">
+                    <ul class="flex flex-col gap-5 *:shadow-sm *:pb-4 *:text-xl *:flex *:justify-between *:items-center *:px-4 *:gap-28">
+                        <li>
+                            How do I submit an event
+                            <i id="quest1" class='bx bx-chevron-down bg-indigo-600 text-white rounded-full p-0.5 cursor-pointer'></i>                        </li>
+                        <li>
+                            Is there a cost to use this platform?
+                            <i class='bx bx-chevron-down bg-indigo-600 text-white rounded-full p-0.5 cursor-pointer''></i>
+                        </li>
+                        <li>
+                            What types of events can I find here?
+                            <i class='bx bx-chevron-down bg-indigo-600 text-white rounded-full p-0.5 cursor-pointer'></i>
+                        </li>
+                        <li>
+                            Can I receive notifications for new events?
+                            <i class='bx bx-chevron-down bg-indigo-600 text-white rounded-full p-0.5 cursor-pointer'></i>
+                        </li>
+                        <li>
+                            Can I report an issue with an event?
+                            <i class='bx bx-chevron-down bg-indigo-600 text-white rounded-full p-0.5 cursor-pointer'></i>
+                        </li>
+                    </ul>
+                    <div class="flex justify-center mt-10">
+                        <a class="bg-indigo-600 px-4 py-3 rounded-md text-white font-bold hover:bg-indigo-700 transition-colors duration-200 ease-linear" href="#">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="w-full">
+            <div class="flex flex-col items-center bg-indigo-600 pt-16">
+                <div>
+                    <div class="text-center text-white space-y-4">
+                        <h1 class="text-lg">35,000+ already joined</h1>
+                        <h1 class="text-3xl">Stay up-to-date with what we're doing</h1>
+                    </div>
+                    <div class="mt-6 mb-20 space-x-4">
+                        <input type="text" class="w-[460px] p-2.5 rounded-md border-none outline-none text-md caret-indigo-600 text-indigo-600  focus:ring-2 focus:ring-red-500" placeholder="Enter you email adress...">
+                        <a href="#" class="bg-red-500 text-white p-3 rounded-md hover:bg-red-400 transition-colors duration-200 ease-linear">Contact Us</a>
+                    </div>
+                </div>
+                <div class="bg-slate-900 w-full flex items-center justify-around py-8">
+                    <div class="flex items-center cursor-pointer text-white space-x-5">
+                        <div class="flex items-center gap-0.5">
+                            <img class="w-7 h-7"  src="/imgs/partners.png" alt="bookmark">
+                            <h1 class="uppercase font-bold text-2xl tracking-wider">Gather</h1>
+                        </div>
+                        <a href="#features" class="uppercase text-lg relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:top-0 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">features</a>
+                        <a href="#events" class="uppercase text-lg relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:top-0 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">events</a>
+                        <a href="#community" class="uppercase text-lg relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:top-0 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">community</a>
+                        <a href="#faqs" class="uppercase text-lg relative no-underline before:content-[''] before:absolute before:bg-red-500 before:w-0 before:h-0.5 before:rounded-full before:-bottom-1 before:hover:w-full before:transition-all before:duration-300 before:ease-linear after:content-[''] after:absolute after:bg-red-500 after:w-0 after:h-0.5 after:rounded-full after:top-0 after:origin-left after:-scale-x-100 after:transition-all after:duration-200 after:ease-linear after:hover:w-full">faqs</a>
+                    </div>
+                    <div class="flex items-center gap-5 text-2xl text-white animate-bounce transition-all">
+                        <i class='bx bxl-facebook-circle cursor-pointer'></i>
+                        <i class='bx bxl-twitter cursor-pointer'></i>
+                        <i class='bx bxl-github cursor-pointer'></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
